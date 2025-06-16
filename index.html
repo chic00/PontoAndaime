@@ -1,0 +1,1842 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ponto do Andaime - Segurança e estrutura para sua obra</title>
+<meta name="description" content="Locação de andaimes e escoramentos para construção civil. Soluções seguras e eficientes para sua obra.">
+<meta name="keywords" content="andaimes, escoramentos, locação, construção civil, obras, segurança">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#FF5500',secondary:'#1F2937'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif;
+}
+.hero-section {
+background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('https://readdy.ai/api/search-image?query=professional%20construction%20site%20with%20scaffolding%20and%20metal%20structures%2C%20workers%20in%20safety%20equipment%2C%20modern%20building%20under%20construction%2C%20industrial%20scene%20with%20tall%20scaffolding%20structures%2C%20sunset%20light%2C%20realistic%20photo&width=1920&height=1080&seq=1&orientation=landscape');
+background-size: cover;
+background-position: center;
+}
+.service-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+input:focus, textarea:focus {
+outline: none;
+border-color: #FF5500;
+}
+.testimonial-card {
+transition: all 0.3s ease;
+}
+.testimonial-card:hover {
+transform: translateY(-5px);
+}
+.custom-checkbox:checked + label:before {
+background-color: #FF5500;
+border-color: #FF5500;
+}
+.gallery-item {
+transition: all 0.3s ease;
+}
+.gallery-item:hover {
+transform: scale(1.02);
+}
+.whatsapp-button {
+box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+</style>
+</head>
+<body class="bg-white">
+<!-- Top Bar -->
+<div class="bg-secondary text-white py-2 px-4">
+<div class="container mx-auto flex justify-between items-center">
+<div class="flex items-center space-x-4">
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-1">
+<i class="ri-phone-line"></i>
+</div>
+<span class="text-sm">(65) 99641-1042</span>
+</div>
+<div class="flex items-center">
+<div class="w-5 h-5 flex items-center justify-center mr-1">
+<i class="ri-mail-line"></i>
+</div>
+<span class="text-sm">contato@pontodoandaime.com.br</span>
+</div>
+</div>
+<div class="flex items-center space-x-3">
+<a href="#" class="w-6 h-6 flex items-center justify-center text-white hover:text-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center text-white hover:text-primary transition-colors">
+<i class="ri-instagram-line"></i>
+</a>
+<a href="#" class="w-6 h-6 flex items-center justify-center text-white hover:text-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+</div>
+</div>
+</div>
+<!-- Header -->
+<header class="bg-white shadow-md sticky top-0 z-50">
+<div class="container mx-auto px-4 py-3">
+<div class="flex justify-between items-center">
+<div class="flex items-center">
+<div class="bg-black px-4 py-2 !rounded-lg flex items-center">
+<span class="text-3xl font-bold text-white tracking-wider">P</span>
+<!-- <span class="text-3xl font-bold text-white tracking-wider">O</span> -->
+<div class="relative mx-0.5">
+<div class="w-7 h-7 rounded-full bg-white"></div>
+<div class="w-5 h-5 rounded-full bg-[#f97316] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+</div>
+<span class="text-3xl font-bold text-white tracking-wider">NT</span>
+<span class="text-3xl font-bold text-white tracking-wider">O</span>
+</div>
+<span class="text-2xl text-secondary ml-2">do Andaime</span>
+</div>
+<div class="hidden md:flex items-center space-x-8">
+<nav class="flex space-x-6">
+<a href="#home" class="text-secondary hover:text-primary font-medium transition-colors">Home</a>
+<a href="#sobre" class="text-secondary hover:text-primary font-medium transition-colors">Sobre Nós</a>
+<a href="#servicos" class="text-secondary hover:text-primary font-medium transition-colors">Serviços</a>
+<a href="#galeria" class="text-secondary hover:text-primary font-medium transition-colors">Galeria</a>
+<a href="#depoimentos" class="text-secondary hover:text-primary font-medium transition-colors">Depoimentos</a>
+<a href="#contato" class="text-secondary hover:text-primary font-medium transition-colors">Contato</a>
+</nav>
+<a href="#orcamento" class="bg-primary text-white px-5 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors">Solicitar Orçamento</a>
+</div>
+<button class="md:hidden w-10 h-10 flex items-center justify-center" id="mobile-menu-button">
+<i class="ri-menu-line text-2xl"></i>
+</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg absolute w-full left-0 py-4 px-4">
+<nav class="flex flex-col space-y-3">
+<a href="#home" class="text-secondary hover:text-primary font-medium transition-colors py-2">Home</a>
+<a href="#sobre" class="text-secondary hover:text-primary font-medium transition-colors py-2">Sobre Nós</a>
+<a href="#servicos" class="text-secondary hover:text-primary font-medium transition-colors py-2">Serviços</a>
+<a href="#galeria" class="text-secondary hover:text-primary font-medium transition-colors py-2">Galeria</a>
+<a href="#depoimentos" class="text-secondary hover:text-primary font-medium transition-colors py-2">Depoimentos</a>
+<a href="#contato" class="text-secondary hover:text-primary font-medium transition-colors py-2">Contato</a>
+<a href="#orcamento" class="bg-primary text-white px-5 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center mt-2">Solicitar Orçamento</a>
+</nav>
+</div>
+</header>
+<!-- Hero Section -->
+<section id="home" class="hero-section min-h-[600px] flex items-center">
+<div class="container mx-auto px-4 py-20 w-full">
+<div class="max-w-3xl">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">Segurança e estrutura para sua obra</h1>
+<p class="text-xl text-white mb-8 max-w-xl">Soluções completas em andaimes e escoramentos para construção civil com qualidade, segurança e compromisso.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#orcamento" class="bg-primary text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center">Solicitar Orçamento</a>
+<a href="#servicos" class="bg-white text-secondary px-8 py-3 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center">Nossos Serviços</a>
+</div>
+<div class="flex flex-wrap gap-8 mt-12">
+<div class="bg-black bg-opacity-50 px-6 py-4 !rounded-lg">
+<div class="text-3xl font-bold text-primary">15+</div>
+<div class="text-white">Anos de experiência</div>
+</div>
+<div class="bg-black bg-opacity-50 px-6 py-4 !rounded-lg">
+<div class="text-3xl font-bold text-primary">500+</div>
+<div class="text-white">Projetos realizados</div>
+</div>
+<div class="bg-black bg-opacity-50 px-6 py-4 !rounded-lg">
+<div class="text-3xl font-bold text-primary">100%</div>
+<div class="text-white">Clientes satisfeitos</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sobre Nós -->
+<section id="sobre" class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Sobre Nós</h2>
+<div class="w-20 h-1 bg-primary mx-auto"></div>
+</div>
+<div class="flex flex-col lg:flex-row gap-12 items-center">
+<div class="lg:w-1/2">
+<h3 class="text-2xl font-bold text-secondary mb-6">Conheça a Ponto do Andaime</h3>
+<p class="text-gray-700 mb-6">Desde 2010, a Ponto do Andaime tem sido referência no mercado de locação de andaimes e escoramentos para construção civil. Nossa trajetória é marcada pelo compromisso com a segurança, qualidade dos equipamentos e excelência no atendimento.</p>
+<p class="text-gray-700 mb-6">Atendemos desde pequenas reformas até grandes obras, sempre com o mesmo padrão de qualidade e dedicação. Nossa equipe é formada por profissionais experientes e capacitados, prontos para oferecer a melhor solução para o seu projeto.</p>
+<p class="text-gray-700">Trabalhamos com equipamentos de alta qualidade, seguindo rigorosamente as normas de segurança e oferecendo suporte técnico especializado para garantir o sucesso da sua obra.</p>
+</div>
+<div class="lg:w-1/2">
+<img src="https://readdy.ai/api/search-image?query=professional%20warehouse%20with%20scaffolding%20equipment%2C%20organized%20storage%20facility%20with%20metal%20structures%20and%20scaffolding%20parts%2C%20industrial%20interior%20with%20high%20ceilings%2C%20workers%20organizing%20equipment%2C%20clean%20and%20well-lit%20environment&width=600&height=400&seq=2&orientation=landscape" alt="Sede da Ponto do Andaime" class="w-full h-auto !rounded-lg shadow-lg">
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+<div class="bg-white p-8 !rounded-lg shadow-md hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mb-6">
+<i class="ri-flag-line text-primary text-3xl"></i>
+</div>
+<h4 class="text-xl font-bold text-secondary mb-4">Missão</h4>
+<p class="text-gray-700">Fornecer soluções seguras e eficientes em andaimes e escoramentos, contribuindo para o sucesso dos projetos de nossos clientes com qualidade, pontualidade e compromisso.</p>
+</div>
+<div class="bg-white p-8 !rounded-lg shadow-md hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mb-6">
+<i class="ri-eye-line text-primary text-3xl"></i>
+</div>
+<h4 class="text-xl font-bold text-secondary mb-4">Visão</h4>
+<p class="text-gray-700">Ser reconhecida como a empresa líder no segmento de locação de andaimes e escoramentos, expandindo nossa atuação em todo o território nacional, mantendo a excelência em nossos serviços.</p>
+</div>
+<div class="bg-white p-8 !rounded-lg shadow-md hover:shadow-lg transition-shadow">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mb-6">
+<i class="ri-heart-line text-primary text-3xl"></i>
+</div>
+<h4 class="text-xl font-bold text-secondary mb-4">Valores</h4>
+<p class="text-gray-700">Segurança, qualidade, comprometimento, transparência, respeito ao cliente e responsabilidade socioambiental são os pilares que norteiam todas as nossas ações e decisões.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Serviços -->
+<section id="servicos" class="py-20">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Nossos Serviços</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Oferecemos soluções completas em andaimes e escoramentos para atender às necessidades específicas de cada projeto.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Serviço 1 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20facade%20scaffolding%20on%20a%20building%2C%20metal%20structure%20with%20safety%20features%2C%20construction%20workers%20using%20the%20scaffolding%2C%20urban%20setting%2C%20bright%20daylight%2C%20realistic%20photo&width=600&height=400&seq=3&orientation=landscape" alt="Andaime Fachadeiro" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Andaime Fachadeiro</h3>
+<p class="text-gray-600 mb-4">Ideal para trabalhos em fachadas, oferecendo segurança e praticidade para obras de diferentes portes.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Altura: até 100m</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">NR-18</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Modulável</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="fachadeiro">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+<!-- Serviço 2 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20tubular%20scaffolding%20system%20being%20used%20in%20construction%2C%20metal%20tubes%20and%20connectors%20forming%20a%20strong%20structure%2C%20workers%20climbing%20on%20scaffolding%2C%20industrial%20setting%2C%20realistic%20photo&width=600&height=400&seq=4&orientation=landscape" alt="Andaime Tubular" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Andaime Tubular</h3>
+<p class="text-gray-600 mb-4">Versátil e resistente, permite montagens em diferentes configurações para atender diversas necessidades.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Carga: 200kg/m²</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Multidirecional</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Ajustável</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="tubular">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+<!-- Serviço 3 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20mobile%20scaffolding%20tower%20being%20used%20in%20construction%2C%20metal%20structure%20on%20wheels%2C%20workers%20using%20it%20for%20ceiling%20work%2C%20indoor%20setting%2C%20bright%20lighting%2C%20realistic%20photo&width=600&height=400&seq=5&orientation=landscape" alt="Andaime Móvel" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Andaime Móvel</h3>
+<p class="text-gray-600 mb-4">Solução prática com rodízios para deslocamento fácil, ideal para trabalhos que exigem mobilidade.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Altura: até 12m</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Rodízios</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Freios</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="movel">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+<!-- Serviço 4 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20shoring%20system%20supporting%20concrete%20formwork%2C%20metal%20props%20and%20beams%20in%20construction%20site%2C%20workers%20adjusting%20the%20supports%2C%20concrete%20pouring%20preparation%2C%20realistic%20photo&width=600&height=400&seq=6&orientation=landscape" alt="Escoramento Metálico" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Escoramento Metálico</h3>
+<p class="text-gray-600 mb-4">Sistema de suporte para lajes e estruturas de concreto, garantindo segurança durante a cura.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Carga: até 3500kg</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Ajustável</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Certificado</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="escoramento">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+<!-- Serviço 5 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20suspended%20scaffolding%20hanging%20from%20a%20tall%20building%2C%20workers%20on%20the%20platform%2C%20safety%20cables%20and%20equipment%2C%20urban%20setting%20with%20high-rise%20buildings%2C%20realistic%20photo&width=600&height=400&seq=7&orientation=landscape" alt="Andaime Suspenso" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Andaime Suspenso</h3>
+<p class="text-gray-600 mb-4">Plataforma suspensa para trabalhos em altura, com sistema de segurança e fácil operação.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Elétrico</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Trava-quedas</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">NR-18</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="suspenso">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+<!-- Serviço 6 -->
+<div class="service-card bg-white !rounded-lg shadow-md overflow-hidden transition-all duration-300">
+<div class="h-60 overflow-hidden">
+<img src="https://readdy.ai/api/search-image?query=professional%20formwork%20system%20for%20concrete%20walls%2C%20metal%20panels%20and%20supports%20in%20construction%20site%2C%20workers%20installing%20the%20formwork%2C%20preparation%20for%20concrete%20pouring%2C%20realistic%20photo&width=600&height=400&seq=8&orientation=landscape" alt="Formas para Concreto" class="w-full h-full object-cover">
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-secondary mb-3">Formas para Concreto</h3>
+<p class="text-gray-600 mb-4">Sistemas de fôrmas metálicas para concretagem de paredes, pilares e outros elementos estruturais.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Modulares</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Reutilizáveis</span>
+<span class="bg-gray-100 text-gray-700 text-xs px-3 py-1 !rounded-full">Precisão</span>
+</div>
+<button class="service-details-btn text-primary font-medium flex items-center" data-service="formas">
+Ver detalhes
+<div class="w-5 h-5 flex items-center justify-center ml-1">
+<i class="ri-arrow-right-line"></i>
+</div>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Modal de Detalhes do Serviço -->
+<div id="service-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden flex items-center justify-center">
+<div class="bg-white !rounded-lg max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 mx-4">
+<div class="flex justify-between items-center mb-6">
+<h3 id="modal-title" class="text-2xl font-bold text-secondary"></h3>
+<button id="close-modal" class="w-8 h-8 flex items-center justify-center text-gray-500 hover:text-gray-700">
+<i class="ri-close-line text-2xl"></i>
+</button>
+</div>
+<div id="modal-content"></div>
+</div>
+</div>
+<!-- Por que escolher a Ponto do Andaime -->
+<section class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Por que escolher a Ponto do Andaime?</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Conheça os diferenciais que fazem da nossa empresa a escolha certa para o sucesso da sua obra.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-shield-check-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Segurança</h3>
+<p class="text-gray-600">Equipamentos certificados e em conformidade com todas as normas de segurança.</p>
+</div>
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-tools-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Qualidade</h3>
+<p class="text-gray-600">Equipamentos de primeira linha, sempre em perfeito estado de conservação.</p>
+</div>
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-time-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Pontualidade</h3>
+<p class="text-gray-600">Entrega e retirada dentro do prazo combinado, respeitando seu cronograma.</p>
+</div>
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-customer-service-2-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Suporte</h3>
+<p class="text-gray-600">Equipe técnica especializada para orientação e assistência durante toda a obra.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Galeria -->
+<section id="galeria" class="py-20">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Galeria de Projetos</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Conheça alguns dos projetos em que nossos equipamentos foram utilizados.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="flex justify-center mb-8">
+<div class="inline-flex bg-gray-100 p-1 !rounded-full">
+<button class="gallery-filter px-4 py-2 !rounded-full whitespace-nowrap bg-primary text-white" data-filter="all">Todos</button>
+<button class="gallery-filter px-4 py-2 !rounded-full whitespace-nowrap" data-filter="fachadeiro">Fachadeiro</button>
+<button class="gallery-filter px-4 py-2 !rounded-full whitespace-nowrap" data-filter="tubular">Tubular</button>
+<button class="gallery-filter px-4 py-2 !rounded-full whitespace-nowrap" data-filter="escoramento">Escoramento</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Galeria Item 1 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="fachadeiro">
+<img src="https://readdy.ai/api/search-image?query=large%20building%20with%20complete%20facade%20scaffolding%2C%20construction%20site%20with%20workers%2C%20urban%20setting%2C%20tall%20structure%20with%20full%20metal%20scaffolding%20coverage%2C%20realistic%20photo&width=600&height=400&seq=9&orientation=landscape" alt="Projeto Edifício Comercial" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Edifício Comercial</h4>
+<p class="text-gray-600 text-sm">Andaime Fachadeiro | São Paulo, SP</p>
+</div>
+</div>
+<!-- Galeria Item 2 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="tubular">
+<img src="https://readdy.ai/api/search-image?query=industrial%20facility%20with%20tubular%20scaffolding%20inside%2C%20factory%20maintenance%20work%2C%20workers%20on%20scaffolding%20structure%2C%20high%20ceiling%20industrial%20space%2C%20realistic%20photo&width=600&height=400&seq=10&orientation=landscape" alt="Projeto Manutenção Industrial" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Manutenção Industrial</h4>
+<p class="text-gray-600 text-sm">Andaime Tubular | Campinas, SP</p>
+</div>
+</div>
+<!-- Galeria Item 3 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="escoramento">
+<img src="https://readdy.ai/api/search-image?query=concrete%20slab%20shoring%20system%20in%20construction%2C%20metal%20props%20supporting%20formwork%2C%20workers%20installing%20the%20system%2C%20construction%20site%20with%20concrete%20preparation%2C%20realistic%20photo&width=600&height=400&seq=11&orientation=landscape" alt="Projeto Laje Comercial" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Laje Comercial</h4>
+<p class="text-gray-600 text-sm">Escoramento Metálico | Rio de Janeiro, RJ</p>
+</div>
+</div>
+<!-- Galeria Item 4 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="fachadeiro">
+<img src="https://readdy.ai/api/search-image?query=historical%20building%20restoration%20with%20facade%20scaffolding%2C%20workers%20restoring%20ornate%20details%2C%20urban%20setting%20with%20traditional%20architecture%2C%20complete%20scaffolding%20coverage%2C%20realistic%20photo&width=600&height=400&seq=12&orientation=landscape" alt="Projeto Restauração Histórica" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Restauração Histórica</h4>
+<p class="text-gray-600 text-sm">Andaime Fachadeiro | Salvador, BA</p>
+</div>
+</div>
+<!-- Galeria Item 5 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="tubular">
+<img src="https://readdy.ai/api/search-image?query=event%20stage%20construction%20with%20tubular%20scaffolding%2C%20workers%20building%20large%20outdoor%20stage%2C%20concert%20preparation%2C%20metal%20structure%20framework%2C%20realistic%20photo&width=600&height=400&seq=13&orientation=landscape" alt="Projeto Estrutura para Evento" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Estrutura para Evento</h4>
+<p class="text-gray-600 text-sm">Andaime Tubular | Belo Horizonte, MG</p>
+</div>
+</div>
+<!-- Galeria Item 6 -->
+<div class="gallery-item !rounded-lg overflow-hidden shadow-md" data-category="escoramento">
+<img src="https://readdy.ai/api/search-image?query=bridge%20construction%20with%20metal%20shoring%20system%2C%20concrete%20formwork%20supported%20by%20metal%20props%2C%20workers%20installing%20the%20system%2C%20large%20infrastructure%20project%2C%20realistic%20photo&width=600&height=400&seq=14&orientation=landscape" alt="Projeto Infraestrutura Viária" class="w-full h-64 object-cover">
+<div class="p-4 bg-white">
+<h4 class="text-lg font-bold text-secondary">Infraestrutura Viária</h4>
+<p class="text-gray-600 text-sm">Escoramento Metálico | Curitiba, PR</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Depoimentos -->
+<section id="depoimentos" class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">O que nossos clientes dizem</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">A satisfação de nossos clientes é o nosso maior orgulho.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="testimonials-slider relative">
+<div class="overflow-hidden">
+<div class="testimonials-track flex transition-transform duration-500" style="transform: translateX(0);">
+<!-- Depoimento 1 -->
+<div class="testimonial-card min-w-full md:min-w-[50%] lg:min-w-[33.333%] px-4">
+<div class="bg-white p-6 !rounded-lg shadow-md h-full">
+<div class="flex items-center mb-4">
+<div class="text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<p class="text-gray-600 mb-6">"A Ponto do Andaime foi fundamental para o sucesso da nossa obra. Equipamentos de qualidade, entrega pontual e suporte técnico excelente. Recomendo sem hesitar."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 !rounded-full bg-gray-200 flex items-center justify-center mr-4">
+<i class="ri-user-line text-gray-500"></i>
+</div>
+<div>
+<h4 class="font-bold text-secondary">Ricardo Oliveira</h4>
+<p class="text-gray-500 text-sm">Engenheiro Civil - Construtora Horizonte</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Depoimento 2 -->
+<div class="testimonial-card min-w-full md:min-w-[50%] lg:min-w-[33.333%] px-4">
+<div class="bg-white p-6 !rounded-lg shadow-md h-full">
+<div class="flex items-center mb-4">
+<div class="text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<p class="text-gray-600 mb-6">"Trabalhamos com a Ponto do Andaime há mais de 5 anos e nunca tivemos problemas. Atendimento ágil, equipamentos sempre em ótimo estado e preço justo."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 !rounded-full bg-gray-200 flex items-center justify-center mr-4">
+<i class="ri-user-line text-gray-500"></i>
+</div>
+<div>
+<h4 class="font-bold text-secondary">Fernanda Almeida</h4>
+<p class="text-gray-500 text-sm">Diretora - FA Construções</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Depoimento 3 -->
+<div class="testimonial-card min-w-full md:min-w-[50%] lg:min-w-[33.333%] px-4">
+<div class="bg-white p-6 !rounded-lg shadow-md h-full">
+<div class="flex items-center mb-4">
+<div class="text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<p class="text-gray-600 mb-6">"Precisávamos de uma solução rápida para um projeto complexo e a Ponto do Andaime nos atendeu prontamente. A equipe técnica nos orientou na escolha dos equipamentos ideais e o resultado foi perfeito."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 !rounded-full bg-gray-200 flex items-center justify-center mr-4">
+<i class="ri-user-line text-gray-500"></i>
+</div>
+<div>
+<h4 class="font-bold text-secondary">Carlos Mendes</h4>
+<p class="text-gray-500 text-sm">Arquiteto - Studio Arquitetura</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Depoimento 4 -->
+<div class="testimonial-card min-w-full md:min-w-[50%] lg:min-w-[33.333%] px-4">
+<div class="bg-white p-6 !rounded-lg shadow-md h-full">
+<div class="flex items-center mb-4">
+<div class="text-primary">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-line"></i>
+</div>
+</div>
+<p class="text-gray-600 mb-6">"O diferencial da Ponto do Andaime é o compromisso com a segurança. Todos os equipamentos são certificados e a equipe está sempre disponível para esclarecer dúvidas. Parceiros de confiança."</p>
+<div class="flex items-center">
+<div class="w-12 h-12 !rounded-full bg-gray-200 flex items-center justify-center mr-4">
+<i class="ri-user-line text-gray-500"></i>
+</div>
+<div>
+<h4 class="font-bold text-secondary">Patrícia Santos</h4>
+<p class="text-gray-500 text-sm">Gerente de Obras - Construtora Progresso</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center mt-8">
+<button class="testimonial-dot w-3 h-3 !rounded-full bg-primary mx-1 active"></button>
+<button class="testimonial-dot w-3 h-3 !rounded-full bg-gray-300 mx-1"></button>
+<button class="testimonial-dot w-3 h-3 !rounded-full bg-gray-300 mx-1"></button>
+<button class="testimonial-dot w-3 h-3 !rounded-full bg-gray-300 mx-1"></button>
+</div>
+<button class="testimonial-nav prev absolute top-1/2 left-0 transform -translate-y-1/2 w-10 h-10 bg-white !rounded-full shadow-md flex items-center justify-center text-gray-600 hover:text-primary">
+<i class="ri-arrow-left-s-line text-xl"></i>
+</button>
+<button class="testimonial-nav next absolute top-1/2 right-0 transform -translate-y-1/2 w-10 h-10 bg-white !rounded-full shadow-md flex items-center justify-center text-gray-600 hover:text-primary">
+<i class="ri-arrow-right-s-line text-xl"></i>
+</button>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="py-16 bg-primary">
+<div class="container mx-auto px-4">
+<div class="flex flex-col md:flex-row items-center justify-between">
+<div class="mb-6 md:mb-0 md:mr-8">
+<h2 class="text-2xl md:text-3xl font-bold text-white mb-2">Pronto para iniciar seu projeto?</h2>
+<p class="text-white text-opacity-90">Entre em contato conosco e solicite um orçamento sem compromisso.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="#orcamento" class="bg-white text-primary px-8 py-3 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors text-center">Solicitar Orçamento</a>
+<a href="tel:1145678901" class="border-2 border-white text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap hover:bg-white hover:bg-opacity-10 transition-colors text-center flex items-center justify-center">
+<div class="w-5 h-5 flex items-center justify-center mr-2">
+<i class="ri-phone-line"></i>
+</div>
+(65) 99641-1042
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Formulário de Orçamento -->
+<section id="orcamento" class="py-20">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Solicite um Orçamento</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="bg-white !rounded-lg shadow-lg p-8 max-w-4xl mx-auto">
+<form id="orcamento-form" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="md:col-span-2">
+<h3 class="text-xl font-bold text-secondary mb-4">Informações de Contato</h3>
+</div>
+<div>
+<label for="nome" class="block text-gray-700 font-medium mb-2">Nome Completo *</label>
+<input type="text" id="nome" name="nome" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary" required>
+</div>
+<div>
+<label for="empresa" class="block text-gray-700 font-medium mb-2">Empresa</label>
+<input type="text" id="empresa" name="empresa" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary">
+</div>
+<div>
+<label for="email" class="block text-gray-700 font-medium mb-2">E-mail *</label>
+<input type="email" id="email" name="email" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary" required>
+</div>
+<div>
+<label for="telefone" class="block text-gray-700 font-medium mb-2">Telefone *</label>
+<input type="tel" id="telefone" name="telefone" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary" required>
+</div>
+<div>
+<label for="cidade" class="block text-gray-700 font-medium mb-2">Cidade *</label>
+<input type="text" id="cidade" name="cidade" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary" required>
+</div>
+<div>
+<label for="estado" class="block text-gray-700 font-medium mb-2">Estado *</label>
+<div class="relative">
+<select id="estado" name="estado" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary appearance-none pr-8" required>
+<option value="">Selecione</option>
+<option value="AC">Acre</option>
+<option value="AL">Alagoas</option>
+<option value="AP">Amapá</option>
+<option value="AM">Amazonas</option>
+<option value="BA">Bahia</option>
+<option value="CE">Ceará</option>
+<option value="DF">Distrito Federal</option>
+<option value="ES">Espírito Santo</option>
+<option value="GO">Goiás</option>
+<option value="MA">Maranhão</option>
+<option value="MT">Mato Grosso</option>
+<option value="MS">Mato Grosso do Sul</option>
+<option value="MG">Minas Gerais</option>
+<option value="PA">Pará</option>
+<option value="PB">Paraíba</option>
+<option value="PR">Paraná</option>
+<option value="PE">Pernambuco</option>
+<option value="PI">Piauí</option>
+<option value="RJ">Rio de Janeiro</option>
+<option value="RN">Rio Grande do Norte</option>
+<option value="RS">Rio Grande do Sul</option>
+<option value="RO">Rondônia</option>
+<option value="RR">Roraima</option>
+<option value="SC">Santa Catarina</option>
+<option value="SP">São Paulo</option>
+<option value="SE">Sergipe</option>
+<option value="TO">Tocantins</option>
+</select>
+<div class="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+<i class="ri-arrow-down-s-line text-gray-500"></i>
+</div>
+</div>
+</div>
+<div class="md:col-span-2 mt-4">
+<h3 class="text-xl font-bold text-secondary mb-4">Informações do Projeto</h3>
+</div>
+<div class="md:col-span-2">
+<label class="block text-gray-700 font-medium mb-2">Tipo de Equipamento *</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+<div class="flex items-center">
+<input type="checkbox" id="andaime_fachadeiro" name="tipo_equipamento[]" value="Andaime Fachadeiro" class="hidden custom-checkbox">
+<label for="andaime_fachadeiro" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Andaime Fachadeiro
+</label>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="andaime_tubular" name="tipo_equipamento[]" value="Andaime Tubular" class="hidden custom-checkbox">
+<label for="andaime_tubular" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Andaime Tubular
+</label>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="andaime_movel" name="tipo_equipamento[]" value="Andaime Móvel" class="hidden custom-checkbox">
+<label for="andaime_movel" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Andaime Móvel
+</label>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="escoramento" name="tipo_equipamento[]" value="Escoramento Metálico" class="hidden custom-checkbox">
+<label for="escoramento" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Escoramento Metálico
+</label>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="andaime_suspenso" name="tipo_equipamento[]" value="Andaime Suspenso" class="hidden custom-checkbox">
+<label for="andaime_suspenso" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Andaime Suspenso
+</label>
+</div>
+<div class="flex items-center">
+<input type="checkbox" id="formas" name="tipo_equipamento[]" value="Formas para Concreto" class="hidden custom-checkbox">
+<label for="formas" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Formas para Concreto
+</label>
+</div>
+</div>
+</div>
+<div>
+<label for="data_inicio" class="block text-gray-700 font-medium mb-2">Data de Início Prevista</label>
+<input type="date" id="data_inicio" name="data_inicio" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary">
+</div>
+<div>
+<label for="duracao" class="block text-gray-700 font-medium mb-2">Duração Estimada (dias)</label>
+<input type="number" id="duracao" name="duracao" min="1" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary">
+</div>
+<div class="md:col-span-2">
+<label for="descricao" class="block text-gray-700 font-medium mb-2">Descrição do Projeto</label>
+<textarea id="descricao" name="descricao" rows="4" class="w-full px-4 py-3 !rounded border border-gray-300 focus:border-primary"></textarea>
+</div>
+<div class="md:col-span-2">
+<div class="flex items-center">
+<input type="checkbox" id="termos" name="termos" class="hidden custom-checkbox" required>
+<label for="termos" class="flex items-center cursor-pointer">
+<span class="w-5 h-5 inline-block mr-2 !rounded border border-gray-300 flex-shrink-0"></span>
+Concordo com os<a href="#" class="text-primary hover:underline">termos de uso </a> e <a href="#" class="text-primary hover:underline">política de privacidade</a>
+</label>
+</div>
+</div>
+<div class="md:col-span-2 text-center">
+<button type="submit" class="bg-primary text-white px-8 py-3 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors">Enviar Solicitação</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+<!-- Contato -->
+<section id="contato" class="py-20 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold text-secondary mb-4">Entre em Contato</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Estamos à disposição para atender às suas necessidades e esclarecer suas dúvidas.</p>
+<div class="w-20 h-1 bg-primary mx-auto mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-map-pin-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Endereço</h3>
+<p class="text-gray-600">R. Dr. Santo Scaravelli, 475<br>Despraiado<br>Cuiabá, MT - CEP 78048-238</p>
+</div>
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-phone-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">Telefone</h3>
+<p class="text-gray-600">(65) 99641-1042<br></p>
+<p class="text-gray-600 mt-2">Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+</div>
+<div class="bg-white p-6 !rounded-lg shadow-md text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mx-auto mb-6">
+<i class="ri-mail-line text-primary text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold text-secondary mb-3">E-mail</h3>
+<p class="text-gray-600">contato@pontodoandaime.com.br<br></p>
+<div class="flex justify-center space-x-4 mt-4">
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 !rounded-full text-gray-600 hover:text-primary transition-colors">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 !rounded-full text-gray-600 hover:text-primary transition-colors">
+<i class="ri-instagram-line"></i>
+</a>
+<a href="#" class="w-10 h-10 flex items-center justify-center bg-gray-100 !rounded-full text-gray-600 hover:text-primary transition-colors">
+<i class="ri-linkedin-fill"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="mt-16">
+<div class="bg-white !rounded-lg shadow-md overflow-hidden h-96">
+<div class="h-full w-full" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png'); background-position: center; background-size: cover;"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-secondary text-white pt-16 pb-6">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<div>
+<div class="flex items-center mb-6">
+<div class="bg-black px-4 py-2 !rounded-lg flex items-center">
+<span class="text-3xl font-bold text-white tracking-wider">P</span>
+<span class="text-3xl font-bold text-white tracking-wider"></span>
+<div class="relative mx-0.5">
+<div class="w-7 h-7 rounded-full bg-white"></div>
+<div class="w-5 h-5 rounded-full bg-[#f97316] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+</div>
+<span class="text-3xl font-bold text-white tracking-wider">NT</span>
+<span class="text-3xl font-bold text-white tracking-wider">O</span>
+</div>
+<span class="text-2xl text-white ml-2">do Andaime</span>
+</div>
+<p class="text-gray-300 mb-6">Soluções completas em andaimes e escoramentos para construção civil com qualidade, segurança e compromisso.</p>
+<p class="text-gray-300 text-sm">CNPJ: 12.345.678/0001-90</p>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-6">Links Rápidos</h4>
+<ul class="space-y-3">
+<li><a href="#home" class="text-gray-300 hover:text-primary transition-colors">Home</a></li>
+<li><a href="#sobre" class="text-gray-300 hover:text-primary transition-colors">Sobre Nós</a></li>
+<li><a href="#servicos" class="text-gray-300 hover:text-primary transition-colors">Serviços</a></li>
+<li><a href="#galeria" class="text-gray-300 hover:text-primary transition-colors">Galeria</a></li>
+<li><a href="#depoimentos" class="text-gray-300 hover:text-primary transition-colors">Depoimentos</a></li>
+<li><a href="#contato" class="text-gray-300 hover:text-primary transition-colors">Contato</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-6">Serviços</h4>
+<ul class="space-y-3">
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Andaime Fachadeiro</a></li>
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Andaime Tubular</a></li>
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Andaime Móvel</a></li>
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Escoramento Metálico</a></li>
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Andaime Suspenso</a></li>
+<li><a href="#" class="text-gray-300 hover:text-primary transition-colors">Formas para Concreto</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-xl font-bold mb-6">Newsletter</h4>
+<p class="text-gray-300 mb-4">Inscreva-se para receber novidades e ofertas exclusivas.</p>
+<form class="mb-6">
+<div class="flex">
+<input type="email" placeholder="Seu e-mail" class="px-4 py-3 !rounded-l-button border-none flex-grow text-gray-800">
+<button type="submit" class="bg-primary text-white px-4 py-3 !rounded-r-button whitespace-nowrap hover:bg-opacity-90 transition-colors">Inscrever</button>
+</div>
+</form>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-300 hover:text-primary transition-colors">
+<i class="ri-facebook-fill text-xl"></i>
+</a>
+<a href="#" class="text-gray-300 hover:text-primary transition-colors">
+<i class="ri-instagram-line text-xl"></i>
+</a>
+<a href="#" class="text-gray-300 hover:text-primary transition-colors">
+<i class="ri-linkedin-fill text-xl"></i>
+</a>
+<a href="#" class="text-gray-300 hover:text-primary transition-colors">
+<i class="ri-youtube-line text-xl"></i>
+</a>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-700 pt-6">
+<div class="flex flex-col md:flex-row justify-between items-center">
+<p class="text-gray-400 text-sm mb-4 md:mb-0">&copy; 2025 Ponto do Andaime. Todos os direitos reservados.</p>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-400 text-sm hover:text-primary transition-colors">Termos de Uso</a>
+<a href="#" class="text-gray-400 text-sm hover:text-primary transition-colors">Política de Privacidade</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<!-- WhatsApp Button -->
+<a href="https://wa.me/5565996411042" class="whatsapp-button fixed bottom-6 right-6 w-14 h-14 bg-green-500 !rounded-full flex items-center justify-center text-white z-50 hover:bg-green-600 transition-colors">
+<i class="ri-whatsapp-line text-2xl"></i>
+</a>
+<!-- Back to Top Button -->
+<button id="back-to-top" class="fixed bottom-6 right-24 w-12 h-12 bg-primary !rounded-full flex items-center justify-center text-white z-50 hover:bg-opacity-90 transition-colors hidden">
+<i class="ri-arrow-up-line text-xl"></i>
+</button>
+<!-- Scripts -->
+<script id="mobile-menu-script">
+document.addEventListener('DOMContentLoaded', function() {
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const mobileMenu = document.getElementById('mobile-menu');
+// Handle mobile menu toggle
+mobileMenuButton.addEventListener('click', function() {
+mobileMenu.classList.toggle('hidden');
+});
+// Handle smooth scrolling for all navigation links (both mobile and desktop)
+const allNavLinks = document.querySelectorAll('a[href^="#"]');
+allNavLinks.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetElement = document.querySelector(targetId);
+if(targetElement) {
+targetElement.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+// Close mobile menu if open
+if(!mobileMenu.classList.contains('hidden')) {
+mobileMenu.classList.add('hidden');
+}
+}
+});
+});
+});
+</script>
+<script id="service-modal-script">
+document.addEventListener('DOMContentLoaded', function() {
+const modal = document.getElementById('service-modal');
+const modalTitle = document.getElementById('modal-title');
+const modalContent = document.getElementById('modal-content');
+const closeModal = document.getElementById('close-modal');
+const serviceButtons = document.querySelectorAll('.service-details-btn');
+const serviceDetails = {
+fachadeiro: {
+title: 'Andaime Fachadeiro',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20facade%20scaffolding%20system%20with%20workers%2C%20close-up%20of%20metal%20structure%20connections%2C%20safety%20features%20visible%2C%20professional%20construction%20equipment&width=600&height=400&seq=15&orientation=landscape" alt="Andaime Fachadeiro Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Altura máxima: 100 metros</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Capacidade de carga: 200 kg/m²</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Aço galvanizado</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Plataformas: Metálicas antiderrapantes</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Modulação: 1,50m x 1,00m</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Norma NR-18</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Construção e manutenção de fachadas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Pintura e revestimento externo</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Restauração de edifícios</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Instalação de vidros e esquadrias</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-shield-check-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Segurança</h5>
+<p class="text-gray-600 text-sm">Sistema completo com guarda-corpo, rodapé e trava-quedas.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-tools-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Montagem Rápida</h5>
+<p class="text-gray-600 text-sm">Sistema de encaixe que facilita a montagem e desmontagem.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-layout-grid-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Versatilidade</h5>
+<p class="text-gray-600 text-sm">Adaptável a diferentes tipos de fachadas e estruturas.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-recycle-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Durabilidade</h5>
+<p class="text-gray-600 text-sm">Material resistente à corrosão e intempéries.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+},
+tubular: {
+title: 'Andaime Tubular',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20tubular%20scaffolding%20system%20with%20workers%2C%20close-up%20of%20metal%20tubes%20and%20connectors%2C%20safety%20features%20visible%2C%20professional%20construction%20equipment&width=600&height=400&seq=16&orientation=landscape" alt="Andaime Tubular Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Diâmetro dos tubos: 48,3mm</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Capacidade de carga: 200 kg/m²</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Aço carbono</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Acabamento: Galvanizado a fogo</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Conexões: Abraçadeiras giratórias e fixas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Norma NR-18</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Manutenção industrial</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Eventos e estruturas temporárias</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Construções com geometria complexa</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Acesso a áreas de difícil alcance</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-shape-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Flexibilidade</h5>
+<p class="text-gray-600 text-sm">Permite montagens em diferentes configurações e geometrias.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-hammer-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Resistência</h5>
+<p class="text-gray-600 text-sm">Suporta cargas elevadas com segurança e estabilidade.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-settings-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Adaptabilidade</h5>
+<p class="text-gray-600 text-sm">Ajusta-se a terrenos irregulares e espaços limitados.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-stack-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Compatibilidade</h5>
+<p class="text-gray-600 text-sm">Integra-se com outros sistemas de andaimes e acessórios.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+},
+movel: {
+title: 'Andaime Móvel',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20mobile%20scaffolding%20tower%20with%20workers%2C%20close-up%20of%20wheels%20and%20locking%20mechanism%2C%20safety%20features%20visible%2C%20indoor%20setting%2C%20professional%20construction%20equipment&width=600&height=400&seq=17&orientation=landscape" alt="Andaime Móvel Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Altura máxima: 12 metros</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Capacidade de carga: 150 kg/m²</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Dimensões da base: 1,50m x 1,80m</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Rodízios: 6" com freio duplo</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Alumínio e aço</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Norma NR-18</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Manutenção de galpões e indústrias</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Instalação de sistemas elétricos e ar condicionado</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Trabalhos em áreas internas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Pintura e acabamento de tetos</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-truck-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Mobilidade</h5>
+<p class="text-gray-600 text-sm">Deslocamento fácil entre diferentes áreas de trabalho.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-time-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Praticidade</h5>
+<p class="text-gray-600 text-sm">Montagem e desmontagem rápidas, economizando tempo.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-lock-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Segurança</h5>
+<p class="text-gray-600 text-sm">Sistema de freios e estabilizadores para trabalho seguro.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-scales-3-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Leveza</h5>
+<p class="text-gray-600 text-sm">Estrutura leve que facilita o transporte e manuseio.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+},
+escoramento: {
+title: 'Escoramento Metálico',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20metal%20shoring%20system%20supporting%20concrete%20formwork%2C%20close-up%20of%20adjustable%20props%20and%20beams%2C%20construction%20site%20with%20concrete%20preparation%2C%20professional%20equipment&width=600&height=400&seq=18&orientation=landscape" alt="Escoramento Metálico Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Capacidade de carga: até 3500 kg por escora</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Altura ajustável: 1,70m a 3,20m</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Aço de alta resistência</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Sistema de ajuste: Porca de regulagem</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Acabamento: Pintado ou galvanizado</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Normas técnicas ABNT</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Suporte para lajes de concreto</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Estruturas de pontes e viadutos</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Reforço estrutural temporário</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Construção de edifícios de múltiplos pavimentos</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-muscle-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Alta Capacidade</h5>
+<p class="text-gray-600 text-sm">Suporta cargas elevadas com segurança e estabilidade.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-ruler-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Ajustabilidade</h5>
+<p class="text-gray-600 text-sm">Sistema de regulagem preciso para diferentes alturas.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-speed-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Eficiência</h5>
+<p class="text-gray-600 text-sm">Instalação rápida que acelera o cronograma da obra.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-recycle-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Reutilização</h5>
+<p class="text-gray-600 text-sm">Material durável que permite múltiplos usos em diferentes obras.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+},
+suspenso: {
+title: 'Andaime Suspenso',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20suspended%20scaffolding%20system%20hanging%20from%20a%20building%2C%20close-up%20of%20safety%20cables%20and%20motor%2C%20workers%20on%20the%20platform%2C%20urban%20setting%20with%20high-rise%20buildings%2C%20professional%20equipment&width=600&height=400&seq=19&orientation=landscape" alt="Andaime Suspenso Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Capacidade de carga: 250 kg/m²</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Comprimento da plataforma: 2m a 8m</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Motor: Elétrico 220V/380V</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Sistema de segurança: Trava-quedas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Alumínio e aço</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Norma NR-18</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Manutenção de fachadas em edifícios altos</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Pintura e revestimento externo</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Limpeza de vidros e fachadas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Instalação de esquadrias e revestimentos</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-arrow-up-down-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Mobilidade Vertical</h5>
+<p class="text-gray-600 text-sm">Movimentação fácil entre diferentes níveis da fachada.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-shield-check-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Segurança</h5>
+<p class="text-gray-600 text-sm">Sistema de trava-quedas e cabos de segurança redundantes.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-tools-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Praticidade</h5>
+<p class="text-gray-600 text-sm">Controle de altura motorizado para maior produtividade.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-layout-grid-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Versatilidade</h5>
+<p class="text-gray-600 text-sm">Adaptável a diferentes tipos de fachadas e estruturas.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+},
+formas: {
+title: 'Formas para Concreto',
+content: `
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<img src="https://readdy.ai/api/search-image?query=detailed%20formwork%20system%20for%20concrete%20walls%2C%20close-up%20of%20metal%20panels%20and%20supports%2C%20workers%20installing%20the%20system%2C%20preparation%20for%20concrete%20pouring%2C%20professional%20construction%20equipment&width=600&height=400&seq=20&orientation=landscape" alt="Formas para Concreto Detalhes" class="w-full h-auto !rounded-lg mb-4">
+</div>
+<div>
+<h4 class="text-lg font-bold text-secondary mb-3">Especificações Técnicas</h4>
+<ul class="space-y-2 text-gray-600 mb-6">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Material: Aço de alta resistência</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Pressão de concreto: até 80 kN/m²</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Módulos: 30cm a 240cm</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Superfície: Chapa metálica ou compensado plastificado</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Sistema de fixação: Grampos e pinos</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span>Certificação: Normas técnicas ABNT</span>
+</li>
+</ul>
+<h4 class="text-lg font-bold text-secondary mb-3">Aplicações</h4>
+<ul class="space-y-2 text-gray-600">
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Paredes de concreto</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Pilares e colunas</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Vigas e lajes</span>
+</li>
+<li class="flex items-start">
+<div class="w-5 h-5 flex items-center justify-center mr-2 mt-0.5 text-primary">
+<i class="ri-arrow-right-circle-line"></i>
+</div>
+<span>Estruturas especiais (curvas, inclinadas)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="mt-6">
+<h4 class="text-lg font-bold text-secondary mb-3">Vantagens</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-repeat-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Reutilização</h5>
+<p class="text-gray-600 text-sm">Permite múltiplos usos, reduzindo custos a longo prazo.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-timer-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Rapidez</h5>
+<p class="text-gray-600 text-sm">Montagem e desmontagem ágeis, acelerando o cronograma.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-shape-2-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Acabamento</h5>
+<p class="text-gray-600 text-sm">Superfície lisa que proporciona concreto com excelente acabamento.</p>
+</div>
+</div>
+<div class="flex items-start">
+<div class="w-10 h-10 flex items-center justify-center bg-primary bg-opacity-10 !rounded-full mr-3 flex-shrink-0">
+<i class="ri-puzzle-line text-primary"></i>
+</div>
+<div>
+<h5 class="font-bold text-secondary mb-1">Modularidade</h5>
+<p class="text-gray-600 text-sm">Sistema modular que se adapta a diferentes projetos e geometrias.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-6 text-center">
+<a href="#orcamento" class="bg-primary text-white px-6 py-2 font-medium !rounded-button whitespace-nowrap hover:bg-opacity-90 transition-colors inline-block">Solicitar Orçamento</a>
+</div>
+`
+}
+};
+serviceButtons.forEach(button => {
+button.addEventListener('click', function() {
+const serviceType = this.getAttribute('data-service');
+const service = serviceDetails[serviceType];
+if (service) {
+modalTitle.textContent = service.title;
+modalContent.innerHTML = service.content;
+modal.classList.remove('hidden');
+document.body.style.overflow = 'hidden';
+}
+});
+});
+closeModal.addEventListener('click', function() {
+modal.classList.add('hidden');
+document.body.style.overflow = 'auto';
+});
+// Close modal when clicking outside
+modal.addEventListener('click', function(e) {
+if (e.target === modal) {
+modal.classList.add('hidden');
+document.body.style.overflow = 'auto';
+}
+});
+});
+</script>
+<script id="gallery-script">
+document.addEventListener('DOMContentLoaded', function() {
+const galleryItems = document.querySelectorAll('.gallery-item');
+const filterButtons = document.querySelectorAll('.gallery-filter');
+filterButtons.forEach(button => {
+button.addEventListener('click', function() {
+const filter = this.getAttribute('data-filter');
+// Update active button
+filterButtons.forEach(btn => btn.classList.remove('bg-primary', 'text-white'));
+this.classList.add('bg-primary', 'text-white');
+// Filter gallery items
+galleryItems.forEach(item => {
+if (filter === 'all' || item.getAttribute('data-category') === filter) {
+item.style.display = 'block';
+} else {
+item.style.display = 'none';
+}
+});
+});
+});
+});
+</script>
+<script id="testimonial-slider-script">
+document.addEventListener('DOMContentLoaded', function() {
+const track = document.querySelector('.testimonials-track');
+const dots = document.querySelectorAll('.testimonial-dot');
+const prevButton = document.querySelector('.testimonial-nav.prev');
+const nextButton = document.querySelector('.testimonial-nav.next');
+const testimonials = document.querySelectorAll('.testimonial-card');
+let currentSlide = 0;
+let slideWidth = 100;
+let slidesToShow = 1;
+// Determine slides to show based on screen width
+function updateSlidesToShow() {
+if (window.innerWidth >= 1024) {
+slidesToShow = 3;
+} else if (window.innerWidth >= 768) {
+slidesToShow = 2;
+} else {
+slidesToShow = 1;
+}
+slideWidth = 100 / slidesToShow;
+updateSlider();
+}
+function updateSlider() {
+// Update track transform
+track.style.transform = `translateX(-${currentSlide * slideWidth}%)`;
+// Update dots
+dots.forEach((dot, index) => {
+dot.classList.remove('bg-primary', 'bg-gray-300', 'active');
+dot.classList.add(index === currentSlide ? 'bg-primary' : 'bg-gray-300');
+if (index === currentSlide) dot.classList.add('active');
+});
+}
+// Initialize
+updateSlidesToShow();
+window.addEventListener('resize', updateSlidesToShow);
+// Click events for dots
+dots.forEach((dot, index) => {
+dot.addEventListener('click', () => {
+currentSlide = index;
+updateSlider();
+});
+});
+// Click events for nav buttons
+prevButton.addEventListener('click', () => {
+currentSlide = Math.max(0, currentSlide - 1);
+updateSlider();
+});
+nextButton.addEventListener('click', () => {
+currentSlide = Math.min(dots.length - 1, currentSlide + 1);
+updateSlider();
+});
+});
+</script>
+<script id="form-script">
+document.addEventListener('DOMContentLoaded', function() {
+const form = document.getElementById('orcamento-form');
+const checkboxes = document.querySelectorAll('.custom-checkbox');
+// Custom checkbox styling
+checkboxes.forEach(checkbox => {
+checkbox.addEventListener('change', function() {
+const label = document.querySelector(`label[for="${this.id}"]`);
+const span = label.querySelector('span');
+if (this.checked) {
+span.classList.add('bg-primary', 'border-primary');
+span.innerHTML = '<i class="ri-check-line text-white text-xs"></i>';
+} else {
+span.classList.remove('bg-primary', 'border-primary');
+span.innerHTML = '';
+}
+});
+});
+// Form submission
+form.addEventListener('submit', function(e) {
+e.preventDefault();
+// Simple validation
+const requiredFields = form.querySelectorAll('[required]');
+let isValid = true;
+requiredFields.forEach(field => {
+if (!field.value) {
+field.classList.add('border-red-500');
+isValid = false;
+} else {
+field.classList.remove('border-red-500');
+}
+});
+// Check if at least one equipment type is selected
+const equipmentCheckboxes = form.querySelectorAll('input[name="tipo_equipamento[]"]');
+let equipmentSelected = false;
+equipmentCheckboxes.forEach(checkbox => {
+if (checkbox.checked) {
+equipmentSelected = true;
+}
+});
+if (!equipmentSelected) {
+alert('Por favor, selecione pelo menos um tipo de equipamento.');
+return;
+}
+if (isValid) {
+// Simulate form submission
+alert('Obrigado! Sua solicitação foi enviada com sucesso. Entraremos em contato em até 24 horas.');
+form.reset();
+// Reset custom checkboxes
+checkboxes.forEach(checkbox => {
+const label = document.querySelector(`label[for="${checkbox.id}"]`);
+const span = label.querySelector('span');
+span.classList.remove('bg-primary', 'border-primary');
+span.innerHTML = '';
+});
+}
+});
+});
+</script>
+<script id="back-to-top-script">
+document.addEventListener('DOMContentLoaded', function() {
+const backToTopButton = document.getElementById('back-to-top');
+window.addEventListener('scroll', function() {
+if (window.pageYOffset > 300) {
+backToTopButton.classList.remove('hidden');
+} else {
+backToTopButton.classList.add('hidden');
+}
+});
+backToTopButton.addEventListener('click', function() {
+window.scrollTo({
+top: 0,
+behavior: 'smooth'
+});
+});
+});
+</script>
+</body>
+</html>
